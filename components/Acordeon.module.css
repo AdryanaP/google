@@ -1,0 +1,20 @@
+.dentroAcordeon {
+  display: none;
+  padding: 0 1rem;
+  transform-origin: center top;
+}
+
+.dentroAcordeon[aria-expanded="true"] {
+  display: block;
+  animation: open 300ms ease-in-out forwards;
+}
+
+@keyframes open {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

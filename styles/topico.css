@@ -1,0 +1,14 @@
+.propriedades {
+    width: 250px;
+    margin-left: 150px;
+}
+
+.propriedades .descricao {
+    width: 200px;
+}
+
+.topicos {
+    display: grid;
+    grid-template-columns: repeat(2, 260px);
+    margin: 0;
+}

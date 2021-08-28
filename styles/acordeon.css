@@ -1,0 +1,11 @@
+.btn-expandir {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}

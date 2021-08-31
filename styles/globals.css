@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.div-acordeon {
+  width: 530px;
+  margin-left: 140px;
+  word-wrap: break-word;
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.h3-acordeon {
+  margin-bottom: 8px;
+  margin-top: 30px;
+  color: #000;
+  cursor: default;
+}
+
+.h3-acordeon:hover {
+  text-decoration: none;
+}
+

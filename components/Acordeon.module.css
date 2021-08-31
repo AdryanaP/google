@@ -1,6 +1,49 @@
+.acordeon {
+  padding: 0;
+  border-top: 1px solid rgb(236, 236, 236);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.btnExpandir {
+  width: 530px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.seta:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  padding: 3px;
+  box-shadow: 0.8px -0.8px 0 0.8px rgb(112, 112, 112) inset;
+  border: solid transparent;
+  border-width: 0 0 0.8px 0.8px;
+  transform: rotate(-45deg);
+  margin-right: 4px;
+  transition: 0.2s ease-in-out;
+}
+
+.seta2:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  padding: 3px;
+  box-shadow: 0.8px -0.8px 0 0.8px rgb(112, 112, 112) inset;
+  border: solid transparent;
+  border-width: 0 0 0.8px 0.8px;
+  transform: rotate(-225deg);
+  margin-right: 4px;
+  transition: 0.2s ease-in-out;
+}
+
 .dentroAcordeon {
   display: none;
-  padding: 0 1rem;
   transform-origin: center top;
 }
 
@@ -17,4 +60,25 @@
   to {
     opacity: 1;
   }
+}
+
+.resposta {
+  font-size: 13px;
+  color: #000;
+  margin-bottom: 16px;
+  margin-top: 2px;
+}
+
+.pesquisar {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.pesquisar a:link {
+  color: #1a0dab;
+}
+
+.pesquisar a:hover {
+  text-decoration: underline;
 }
